@@ -12,7 +12,7 @@ public class TriangleExercises {
         String line = "";
 
         for (int i = 0; i < n; i++) {
-            line += this.getAsterisk();
+            line += getAsterisk();
         }
 
         return line + "\n";

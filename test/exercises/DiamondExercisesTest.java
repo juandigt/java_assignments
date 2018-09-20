@@ -1,7 +1,6 @@
-package test;
+package exercises;
 
 import org.junit.Test;
-import exercises.DiamondExercises;
 
 public class DiamondExercisesTest {
 

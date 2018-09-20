@@ -8,12 +8,12 @@ public class DiamondExercises {
         return "*";
     }
 
-    public String getTopTriangle(int n) {
+    public String getTopTriangle(int triangleLength) {
         String triangle = "";
 
-        int espacios = n-1;
+        int espacios = triangleLength-1;
         int asteriscos = 1;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < triangleLength; i++) {
             for (int j = 0; j < espacios; j++) {
                 triangle += " ";
             }
@@ -28,7 +28,7 @@ public class DiamondExercises {
         return triangle;
     }
 
-    public String getBottomTriangle(int n) {
+    String getBottomTriangle(int n) {
         String triangle = "";
 
         int espacios = 0;
